@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 app = Flask(__name__)
 
 # Load the dataset
-df = pd.read_csv("C:/Users/hostr/OneDrive/Documents/Projects/Website/Working/Sleep Disorder Prediction/nishant-disorder.csv")
+df = pd.read_csv("nishant-disorder.csv")
 df = df.dropna()
 
 #label encoding
